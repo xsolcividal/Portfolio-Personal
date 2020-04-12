@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&family=Muli:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio personal</title>
+</head>
+<body>
+    <nav>
+        <hr>
+        <div class="toggle-menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="nav-bar">
+            <a href="">A cerca de mí</a>
+            <a href="">Porfolio</a>
+            <a href="">Contacto</a>
+            </div>
+    </nav>
+
+    <section class="primer-section">
+        <div class="contenedor-medio">
+            <h3>EVELYN SOL VIDAL</h3>
+            <h4>FULL STACK WEB </h4>
+            <h4 class="segundo-h">DEVELOPER JR</h4>
+            <img src="fotomia.jpg" alt="desarrollo imagen">
+                <div class="info-personal">
+                    <p>Me llamo <a href="https://www.linkedin.com/in/evelyn-sol-vidal-431072156/?originalSubdomain=ar">Evelyn Sol Vidal</a> y soy Desarrolladora Web Full Stack. </p>
+                    <p>Comencé a estudiar DWFS gracias a las becas de estudio por Globant-Acámica, allí adquirí conocomientos en diferentes lenguajes y tecnologías que hoy se convirtieron en skills personales. 
+                    </p>
+                    <button class="conoce-mas">Conoce más</button> <!--Este boton te lleva al anchor de mis skills personales-->
+            </div>
+        </div>
+    </section>
+    <section class="sobremi">
+        <div class="sobre-mi">
+            <span>SKILLS</span><br> <span class="span-color">PERSONALES</span>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Mongo DB</li>
+                <li>mySQL</li>
+                <li>Node JS</li>
+                <li>Express</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="mis-proyectos">
+        <div class="proyectos">
+            <span>MIS</span> <br> <span class="span-colorcito">PROYECTOS</span>
+            <hr>
+            <p>Single Page Application de la carrera Desarrollo Web Full Stack. Desarrollado con HTML y CSS. Responsive. </p>
+           <a href="https://solvidalpodcast.000webhostapp.com/"> Hacé click acá para verlo</a>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="contacto">
+        <div class="contactame">
+            <span>CONTACTAME</span>
+            <hr>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="name" name="Primer Nombre" placeholder="Nombre">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="Apellido" placeholder="Apellido">
+                
+                <label for="subject"></label>
+                <textarea name="mensaje" id="mensaje"placeholder="Mensaje"></textarea>
+
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/evelyn-sol-vidal-431072156?originalSubdomain=ar" class="fa fa-linkedin"></a>
+            <a href="https://github.com/xsolcividal/podcast-chanel" class="fa fa-github"></a>
+            <a href="https://www.instagram.com/xsolcividal/" class="fa fa-instagram"></a>
+        </div>
+    </section>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>
